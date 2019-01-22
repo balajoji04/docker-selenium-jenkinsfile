@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    }
+    
     stages { 	
         stage('Build Jar') {
             steps {
@@ -25,4 +25,4 @@ pipeline {
             }
         }        
     }
-}
+
